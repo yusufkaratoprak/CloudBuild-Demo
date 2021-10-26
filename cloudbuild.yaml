@@ -2,4 +2,4 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build','-t','hub.docker.com/repository/docker/yusufkaratoprak/hello-world','.']
 images:
-- 'gcr.io/$PROJECT_ID/cloud-demo'
+- 'hub.docker.com/repository/docker/yusufkaratoprak/hello-world'
